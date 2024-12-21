@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 20px;
+
+    
+}
+
+body{
+  font-family:'Playfair Display',sans-serif; 
+  background-color:  hsl(30, 54%, 90%); 
+ 
+}
+
+.container{
+    background-color:white;
+    color: black;
+    font: sans-serif;
+    padding: 50px;
+    max-width: 700px;
+    border-radius: 50px;
+    margin-inline: auto;
+    
+}
+
+.recipe-container{
+    background-color: hsl(330, 100%, 98%);
+    font-size: 20px;
+}
+.pink{
+    color:  hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+.brown{
+    color:  hsl(14, 45%, 36%);
+    font-size: 25px;
+}
+.img{
+    border-radius: 50px;
+}
+
+.font{
+    font-size: 20px;
+}
+
+.nutrition-table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse; 
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #ddd; 
+}
+
+.nutrition-table tr {
+    border-bottom: 1px solid #ddd; 
+}
+.nutrition-table tr:last-child {
+    border-bottom: none;}
+
+.instructions{
+        border-top:  1px solid  hsl(30, 10%, 34%);
+        line-height: 1.4;
+        font-size: 20px;
+}
+
+.Nutrition{
+    border-top:  0.5px solid  hsl(30, 10%, 34%);
+    font-size: 20px;
+}
+ol{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-size: 20px;
+}
+
+.ingredients{
+    font-size: 20px;
+}
