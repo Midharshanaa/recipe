@@ -8,6 +8,7 @@
 body{
   font-family:'Playfair Display',sans-serif; 
   background-color:  hsl(30, 54%, 90%); 
+  line-height: 1.6;
  
 }
 
@@ -63,16 +64,14 @@ body{
         border-top:  1px solid  hsl(30, 10%, 34%);
         line-height: 1.4;
         font-size: 20px;
+        margin-bottom: 20px;
 }
 
 .Nutrition{
     border-top:  0.5px solid  hsl(30, 10%, 34%);
     font-size: 20px;
 }
-ol{
-    margin: 0;
-    padding: 0;
-}
+
 p{
     font-size: 20px;
 }
@@ -80,3 +79,25 @@ p{
 .ingredients{
     font-size: 20px;
 }
+
+ol {
+    list-style-position: outside; 
+    margin-left: 0; 
+    padding-left: 30px; 
+  }
+  
+
+  ol li {
+    margin-bottom: 0px; 
+    text-indent: 0; 
+    padding-left: 0; 
+    line-height: 1.6; 
+    position: relative;
+  }
+  
+  
+  ol li strong {
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 0px; 
+  }
